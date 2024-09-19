@@ -2,8 +2,6 @@ import pandas   as pd
 import datetime
 from datetime import date
 import streamlit as st
-import plotly.graph_objects as go
-
 import locale
 locale.setlocale(locale.LC_ALL,  "Portuguese_Brazil.1252")
 pd.options.mode.chained_assignment = None  # default='warn'
