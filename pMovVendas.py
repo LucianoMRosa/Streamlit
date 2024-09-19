@@ -4,8 +4,6 @@ from datetime import date
 import streamlit as st
 import locale
 import requests
-from openpyxl import Workbook, load_workbook
-from openpyxl.styles import PatternFill, Font, Alignment
 import numpy as np
 import pandas   as pd
 import locale
