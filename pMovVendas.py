@@ -3,9 +3,6 @@ import datetime
 from datetime import date
 import streamlit as st
 import locale
-locale.setlocale(locale.LC_ALL,  "Portuguese_Brazil.1252")
-pd.options.mode.chained_assignment = None  # default='warn'
-
 import requests
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import PatternFill, Font, Alignment
@@ -50,4 +47,4 @@ st.title('Vendas Anuais')
 
 st.dataframe(df, width=1500, height=1000)
 
-#  streamlit run C:\Users\lucia\Dev\vendas\pMovVendas.py 
+#  streamlit run pMovVendas.py 
